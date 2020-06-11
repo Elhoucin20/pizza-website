@@ -1,0 +1,254 @@
+@font-face{
+      src: url("fonts/Borders\ Divide\,\ But\ Hearts\ Shall\ Conquer.ttf");
+      font-family: Avocado;
+
+}
+@font-face{
+      src: url("fonts/Royalacid_o.ttf");
+      font-family: sweet;
+}
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+header{
+
+      height: 67px;
+}
+ul{
+      list-style-type: none;
+      float: right;
+      margin-top: 21px;
+      margin-right: 160px;
+}
+ul li{
+      display: inline-block;
+}
+ul li a{
+      text-decoration: none;
+      padding: 5px 12px;
+      color: orange;
+      font-size: 21px;
+      transition: all 1s ease-in-out;
+}
+ul li a:hover{
+      background-color: rgb(247, 117, 117);
+      color: black;
+}
+.pizz h1{
+      float: left;
+      width: 150px;
+      height: auto;
+      margin-left: 180px;
+      margin-top: 5px;
+      font-size: 37px;
+      font-family: cursive;
+      color: orange;
+}
+
+/*******************************************styling nav starts here**********************************/
+
+nav{
+      height: 500px;
+      width: 100%;
+      background-image: url('pictures/gallery-img2.jpg');
+      background-size: cover;
+      position: fixed;
+      position: relative;
+}
+.opacity{
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: .6;
+
+}
+nav h1{
+      position: absolute;
+      top: 160px;
+      left: 400px;
+      font-size: 50px;
+      font-family: MetalMania;
+      color: #ffffff;
+}
+nav{
+      background-color: red;
+      height: 500px;
+      background-image: url('pictures/gallery-img5.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 1;
+}
+nav .content{
+      background-color: black;
+      width: 100%;
+      height: 100%;
+      opacity: 0.5;
+      z-index: 7;
+}
+nav h2{
+      font-size: 70px;
+      font-family: Avocado;
+      text-align: center;
+      line-height: 300px;
+      color: orange;
+      z-index: 4;
+}
+nav h5{
+      color: #fff;
+      font-size: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      margin-top: -100px;
+      z-index: 5;
+}
+nav p{
+      font-size: 25px;
+      text-align: center;
+      margin-top: 14px;
+      color: #ffffff;
+      font-weight: bold;
+}
+/***************************************styling pizz_shop starts here********************************/
+.pizza_shop{
+
+      height: 670px;
+      position: relative;
+}
+.pizza_shop .left_part{
+      width: 500px;
+      height: 470px;
+      position: absolute;
+      top: 100px;
+      left: 180px;
+}
+.pizza_shop .left_part h3{
+      color: orange;
+      font-size: 33px;
+      margin-top: 20px;
+      margin-left: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 5px;
+      font-style: italic;
+}
+.pizza_shop .left_part h4{
+      color: orange;
+      font-size: 27px;
+      margin-top: 30px;
+      margin-left: 20px;
+      font-family:  'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 5px;
+      font-style: italic;
+      font-weight: bold;
+}
+.pizza_shop .left_part p{
+      color: rgb(7, 7, 7);
+      font-size: 19px;
+      margin-top: 10px;
+      margin-left: 20px;
+      font-family:   sans-serif;
+}
+.right_part img{
+         width: 396px;
+         height: 297px;
+         margin-left: 770px;
+         margin-top: 196px;
+}
+
+/***************************************styling gallery starts here********************************/
+.gallery{
+      background-color: rgb(247, 247, 247);
+      height: 890px;
+      position: relative;
+      display: flex;
+}
+.gallery h1{
+      position: absolute;
+      top: 60px;
+      left: 576px;
+      font-family: sweet;
+      font-size: 50px;
+      border-bottom: 3px solid orange;
+      color: orange;
+}
+.gallery .g1{
+      width: 300px;
+      height: 300px;
+      background-color: white;
+      position: absolute;
+      top: 170px;left: 200px;
+
+}
+.gallery .g2{
+      width: 300px;
+      height: 300px;
+      background-color: rgb(250, 248, 248);
+      position: absolute;
+      top: 170px;left: 519px;
+}
+.gallery .g3{
+      width: 300px;
+      height: 300px;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      top: 170px;left: 840px;
+}
+.g1  img ,.g2 img , .g3 img{
+      width: 100%;
+}
+.g1 h3 ,.g2 h3 ,.g3 h3{
+      color: orange;
+      font-size: 25px;
+      text-align: center;
+      font-family:    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: italic;
+}
+.g1 p ,.g2 p ,.g3 p{
+      color: black;
+      font-size: 17px;
+      text-align: center;
+      font-family:    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: italic;
+}
+.g4{
+      background-color: #fff;
+      width: 457px;
+      height: 300px;
+      position: absolute;
+      top: 500px;
+      left: 200px;
+}
+.g5{
+      background-color: #fff;
+      width: 457px;
+      height: 300px;
+      position: absolute;
+      top: 500px;
+      left: 685px;
+}
+.g4  img ,.g5 img{
+      width: 100%;
+      height: 65%;
+}
+.g4 h3 ,.g5 h3 {
+      color: orange;
+      font-size: 25px;
+      text-align: center;
+      font-family:    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: italic;
+}
+.g4 p ,.g5 p {
+      color: black;
+      font-size: 17px;
+      text-align: center;
+      font-family:    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: italic;
+}
+.g1 ,.g2 ,.g3 ,.g4 ,.g5{
+      transition: all .5s ease-in;
+}
+.g1:hover  ,.g2:hover ,.g3:hover ,.g4:hover ,.g5:hover{
+      transform: scale(1.1 ,1.1);
+}
